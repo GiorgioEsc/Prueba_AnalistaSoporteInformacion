@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18012067500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Ingresar a la categoria empleos desde la pantalla de inicio",
+        "description": "",
+        "id": "seccion-empleos;ingresar-a-la-categoria-empleos-desde-la-pantalla-de-inicio",
+        "after": [
+          {
+            "result": {
+              "duration": 1030951900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 376789600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "El usuario se encuentra en la pagina inicio de choucairtesting",
+            "match": {
+              "location": "Test.el_usuario_se_encuentra_en_la_pagina_inicio_de_choucairtesting()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3942745600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Hace click sobre el boton Empleos",
+            "match": {
+              "location": "Test.hace_click_sobre_el_boton_Empleos()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 195486700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Se debe redirir a la pantalla de empleos",
+            "match": {
+              "location": "Test.se_debe_redirir_a_la_pantalla_de_empleos()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Seccion Empleos",
+    "description": "Como candidato quiero ingresar a la seccion empleos para consultar las ofertas disponibles\r\ny la informacion de preparacion.",
+    "id": "seccion-empleos",
+    "keyword": "Feature",
+    "uri": "test.feature"
+  }
+]
